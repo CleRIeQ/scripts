@@ -13,7 +13,7 @@ if args.all == True:
     webbrowser.open('https://music.yandex.kz/users/CleRleQ/playlists/3', new=0)
     webbrowser.open('https://docs.djangoproject.com/en/4.0/', new=0)
     try: 
-        url = 'C:\\Users\\Atomniy-PC\\AppData\\Local\\Programs\\Microsoft VS Code\\Cods.exe'
+        url = 'C:\\Users\\Atomniy-PC\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe'
         subprocess.Popen(url)
     except FileNotFoundError:
         print(f"ERROR!!! \n VS Code not found. Used path: '{url}' .")
